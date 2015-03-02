@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-void sayHello();
+void happyBirthday();
+
+int age;
 
 int main(int argc, const char * argv[])
 {
@@ -18,7 +20,9 @@ int main(int argc, const char * argv[])
         // C Primitives
         //
         
-//        sayHello();
+//        age = 10;
+//        happyBirthday();
+//        happyBirthday();
 
         // One byte wide, so range is -128 through 127 for signed or 0 through 255 for unsigned
 //        char aChar = 'a';
@@ -68,7 +72,7 @@ int main(int argc, const char * argv[])
         
         // Floating point imprecision
 //        NSLog(@"%.17f", .1);
-//        NSLog(@"%.17f", 4.2 - 4.1); // 0.10000000000000053
+//        NSLog(@"%.1f", 4.2 - 4.1); // 0.10000000000000053
         
         //
         // Objective-C Primitives
@@ -80,6 +84,9 @@ int main(int argc, const char * argv[])
 //        NSLog(@"%@", isBool ? @"YES" : @"NO");
         
         // pointer to any object
+//        NSString *myString = @"Hello World";
+//        NSLog(@"%@", myString);
+//        
 //        id mysteryObject = @"An NSString object";
 //        NSLog(@"%@", [mysteryObject description]);
 //        mysteryObject = @{@"model": @"Ford", @"year": @1967};
@@ -91,6 +98,8 @@ int main(int argc, const char * argv[])
 //        if ([mysteryObject isKindOfClass:targetClass])
 //        {
 //            NSLog(@"Yup! That's an instance of the target class");
+//            NSString *aString = (NSString *)mysteryObject;
+//            NSLog(@"%@", aString);
 //        }
         
         // pointer to method
@@ -106,7 +115,8 @@ int main(int argc, const char * argv[])
     return 0;
 }
 
-void sayHello()
+void happyBirthday()
 {
-    NSLog(@"Hello World!");
+    age = age + 1;
+    NSLog(@"Happy Birthday! You're now %d", age);
 }
