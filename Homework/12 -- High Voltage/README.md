@@ -8,6 +8,10 @@ Great job on the time circuits! We were able to get you here to 1955 so you can 
 
 \- Doc Brown
 
+Let's build a universal app for Doc so he can perform those crucial calculations on the fly. The main view will be a tableview with dynamically added cells, one for each value type. The + button will create a popover when tapped to allow the user to select the value type they want to add. Once two values are entered, the app should disable the + button and perform the necessary calculations to add the two remaining value types to the screen. The clear button will empty the table and prepare the app for a new transaction.
+
+See [this site](http://www.rapidtables.com/calc/electric/watt-volt-amp-calculator.htm) for the list of equations as well as a web implementation of this app you can use for testing.
+
 ### Steps to Success
 
 #### Storyboard Tasks
