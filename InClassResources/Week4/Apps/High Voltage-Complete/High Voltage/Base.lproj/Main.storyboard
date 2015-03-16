@@ -106,13 +106,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POWER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48j-3f-XMM">
-                                            <rect key="frame" x="15" y="13" width="52.5" height="17"/>
+                                            <rect key="frame" x="15" y="13" width="53" height="17"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Watts (W)" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yXR-RY-ICi">
-                                            <rect key="frame" x="75.5" y="10.5" width="509.5" height="24"/>
+                                        <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Watts (W)" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yXR-RY-ICi">
+                                            <rect key="frame" x="76" y="11" width="510" height="24"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
                                             <connections>
@@ -212,4 +212,5 @@
             <point key="canvasLocation" x="1261" y="429"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.98734146356582642" green="0.23847059905529022" blue="0.029214233160018921" alpha="1" colorSpace="calibratedRGB"/>
 </document>

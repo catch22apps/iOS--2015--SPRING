@@ -95,7 +95,7 @@
     else if ([identifier isEqualToString:@"ResistanceCell"])
     {
         resistanceTextField = textField;
-        if (converter.ampsString)
+        if (converter.ohmsString)
         {
             [textField setText:converter.ohmsString];
         }
@@ -103,7 +103,7 @@
     else if ([identifier isEqualToString:@"VoltsCell"])
     {
         voltsTextField = textField;
-        if (converter.ampsString)
+        if (converter.voltsString)
         {
             [textField setText:converter.voltsString];
         }
@@ -111,7 +111,7 @@
     else if ([identifier isEqualToString:@"PowerCell"])
     {
         powerTextField = textField;
-        if (converter.ampsString)
+        if (converter.wattsString)
         {
             [textField setText:converter.wattsString];
         }
