@@ -88,11 +88,11 @@
 			isa = PBXGroup;
 			children = (
 				DFCBB7901AB1C09B002D7F82 /* AppDelegate.h */,
+				DFCBB7911AB1C09B002D7F82 /* AppDelegate.m */,
 				DFCBB7B51AB1CF1D002D7F82 /* TodoTableViewController.h */,
 				DFCBB7B61AB1CF1D002D7F82 /* TodoTableViewController.m */,
 				DFCBB7B81AB1EFE0002D7F82 /* PriorityTableViewController.h */,
 				DFCBB7B91AB1EFE0002D7F82 /* PriorityTableViewController.m */,
-				DFCBB7911AB1C09B002D7F82 /* AppDelegate.m */,
 				DFCBB7B21AB1C0B7002D7F82 /* TodoItem.h */,
 				DFCBB7B31AB1C0B7002D7F82 /* TodoItem.m */,
 				DFCBB7961AB1C09B002D7F82 /* Main.storyboard */,
@@ -424,6 +424,7 @@
 				DFCBB7AE1AB1C09B002D7F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCBB7AF1AB1C09B002D7F82 /* Build configuration list for PBXNativeTarget "TodoTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +433,7 @@
 				DFCBB7B11AB1C09B002D7F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
