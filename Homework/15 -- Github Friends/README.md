@@ -17,7 +17,7 @@ In the FriendDetailViewController:
 * [ ] Create a private instance variable called repos that is an NSArray.
 
 * [ ] In viewDidLoad:
-	* [ ] Fetch the "login" attribute from the friendsInfo dictionary and store it in a local variable.
+	* [ ] Fetch the "login" attribute from the friendInfo dictionary and store it in a local variable.
 	* [ ] Create a url string variable that uses the following: "https://api.github.com/users/?/repos" where ? is replaced with the username of the Github user.
 	* [ ] Convert the url string created above into an NSURL object.
 	* [ ] Create an NSURLRequest object with the NSURL above.
