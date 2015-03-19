@@ -8,6 +8,11 @@ This is the API call to use to get coordinates from a zip code:
 http://maps.googleapis.com/maps/api/geocode/json?address=santa+cruz&components=postal_code:12345&sensor=false
 (Where 12345 is the zipcode. The address field has a city name in it, which is ignored by the API server for this request)
 
+Here are some design layout ideas for the first two views:
+
+[City Table View](https://github.com/TheIronYard--Orlando/iOS--2015--SPRING/blob/master/Homework/16%20--%20Forecaster/CityTableView.png)
+[Add City View](https://github.com/TheIronYard--Orlando/iOS--2015--SPRING/blob/master/Homework/16%20--%20Forecaster/AddCityView.png)
+
 ### Steps to Success
 
 #### Storyboard Tasks
