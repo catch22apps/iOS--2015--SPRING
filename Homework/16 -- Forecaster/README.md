@@ -10,8 +10,8 @@ http://maps.googleapis.com/maps/api/geocode/json?address=santa+cruz&components=p
 
 Here are some design layout ideas for the first two views:
 
-[City Table View](https://github.com/TheIronYard--Orlando/iOS--2015--SPRING/blob/master/Homework/16%20--%20Forecaster/CityTableView.png)
-[Add City View](https://github.com/TheIronYard--Orlando/iOS--2015--SPRING/blob/master/Homework/16%20--%20Forecaster/AddCityView.png)
+![City Table View](https://github.com/TheIronYard--Orlando/iOS--2015--SPRING/blob/master/Homework/16%20--%20Forecaster/CityTableView.png)
+![Add City View](https://github.com/TheIronYard--Orlando/iOS--2015--SPRING/blob/master/Homework/16%20--%20Forecaster/AddCityView.png)
 
 ### Steps to Success
 
