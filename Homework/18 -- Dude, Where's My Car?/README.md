@@ -2,6 +2,8 @@
 
 ## Dude, Where's My Car?
 
+![Dude!](http://giphy.com/gifs/ashton-kutcher-i-had-to-dude-wheres-my-car-3fpNOUeYLwKdO)
+
 Build an iPhone app that allows the user to drop a pin on demand to mark where their car has been parked. Also allow the user to enter a short description or name for this location. Save this information using NSCoding to NSUserDefaults. When the app is relaunched, if a pin has been saved, the app will pull the pin in from NSUserDefaults and show it on the map. Include a separate marker denoting the user's current location.
 
 ### Steps to Success
