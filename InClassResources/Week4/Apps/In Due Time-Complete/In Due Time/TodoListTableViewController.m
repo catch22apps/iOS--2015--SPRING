@@ -7,6 +7,9 @@
 //
 
 #import "TodoListTableViewController.h"
+
+#import "TodoTableViewCell.h"
+
 #import "TodoItem.h"
 
 @interface TodoListTableViewController () <UITextFieldDelegate>
@@ -56,27 +59,23 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TodoItemCell" forIndexPath:indexPath];
+    TodoTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TodoItemCell" forIndexPath:indexPath];
     
     TodoItem *todoItem = todoItems[indexPath.row];
     
-    UITextField *textField = (UITextField *)[cell viewWithTag:1];
-    UIButton *checkboxButton = (UIButton *)[cell viewWithTag:2];
-    
     // Reset textfield/button values in case of cell reuse
-    textField.text = @"";
+    cell.descriptionTextField.text = @"";
     
     if (todoItem.title)
     {
-        textField.text = todoItem.title;
+        cell.descriptionTextField.text = todoItem.title;
     }
     else
     {
-        [textField becomeFirstResponder];
+        [cell.descriptionTextField becomeFirstResponder];
     }
     
-//    NSLog(@"todoItem done: %@", (todoItem.done) ? @"YES" : @"NO");
-    [checkboxButton setSelected:todoItem.done];
+    [cell.checkBoxButton setSelected:todoItem.done];
     
     return cell;
 }
@@ -85,15 +84,8 @@
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    BOOL rc = NO;
     TodoItem *item = todoItems[indexPath.row];
-    
-    if (item.done)
-    {
-        rc = YES;
-    }
-    
-    return rc;
+    return item.done;
 }
 
 // Override to support editing the table view.

@@ -15,6 +15,7 @@
 		DF45C3BB1AB751790007B569 /* In_Due_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45C3BA1AB751790007B569 /* In_Due_TimeTests.m */; };
 		DF45C3C61AB751920007B569 /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45C3C51AB751920007B569 /* TodoItem.m */; };
 		DF45C3C91AB7521F0007B569 /* TodoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45C3C81AB7521F0007B569 /* TodoListTableViewController.m */; };
+		DFE153191AB8640400138E0B /* TodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE153181AB8640400138E0B /* TodoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		DF45C3C51AB751920007B569 /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
 		DF45C3C71AB7521F0007B569 /* TodoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListTableViewController.h; sourceTree = "<group>"; };
 		DF45C3C81AB7521F0007B569 /* TodoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListTableViewController.m; sourceTree = "<group>"; };
+		DFE153171AB8640400138E0B /* TodoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoTableViewCell.h; sourceTree = "<group>"; };
+		DFE153181AB8640400138E0B /* TodoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				DF45C3A31AB751790007B569 /* AppDelegate.m */,
 				DF45C3C71AB7521F0007B569 /* TodoListTableViewController.h */,
 				DF45C3C81AB7521F0007B569 /* TodoListTableViewController.m */,
+				DFE153171AB8640400138E0B /* TodoTableViewCell.h */,
+				DFE153181AB8640400138E0B /* TodoTableViewCell.m */,
 				DF45C3C41AB751920007B569 /* TodoItem.h */,
 				DF45C3C51AB751920007B569 /* TodoItem.m */,
 				DF45C3A81AB751790007B569 /* Main.storyboard */,
@@ -226,6 +231,7 @@
 			files = (
 				DF45C3A41AB751790007B569 /* AppDelegate.m in Sources */,
 				DF45C3C91AB7521F0007B569 /* TodoListTableViewController.m in Sources */,
+				DFE153191AB8640400138E0B /* TodoTableViewCell.m in Sources */,
 				DF45C3C61AB751920007B569 /* TodoItem.m in Sources */,
 				DF45C3A11AB751790007B569 /* main.m in Sources */,
 			);
@@ -420,6 +426,7 @@
 				DF45C3C01AB751790007B569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF45C3C11AB751790007B569 /* Build configuration list for PBXNativeTarget "In Due TimeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				DF45C3C31AB751790007B569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
