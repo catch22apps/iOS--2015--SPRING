@@ -7,11 +7,11 @@ After splitting into two groups, work to create a design/plan-of-attack to creat
 The groups are as follows:
 
 #### Group A
-Randall
-Jim
-Keaton
+* Randall
+* Jim
+* Keaton
 
 #### Group B
-Jordan
-Richard
-Joe
+* Jordan
+* Richard
+* Joe
