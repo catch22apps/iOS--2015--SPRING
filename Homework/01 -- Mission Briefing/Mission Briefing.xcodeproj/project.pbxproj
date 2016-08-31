@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EE01FC61D76018A00CAEC2E /* Mission_BriefingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE01FC51D76018A00CAEC2E /* Mission_BriefingUITests.swift */; };
 		F32465971A69663E00A6A3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F32465961A69663E00A6A3CA /* main.m */; };
 		F324659A1A69663E00A6A3CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F32465991A69663E00A6A3CA /* AppDelegate.m */; };
 		F324659D1A69663E00A6A3CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F324659C1A69663E00A6A3CA /* ViewController.m */; };
@@ -18,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1EE01FC81D76018A00CAEC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32465891A69663E00A6A3CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32465901A69663E00A6A3CA;
+			remoteInfo = "Mission Briefing";
+		};
 		F32465AB1A69663E00A6A3CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F32465891A69663E00A6A3CA /* Project object */;
@@ -28,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EE01FC31D76018A00CAEC2E /* Mission BriefingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mission BriefingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE01FC51D76018A00CAEC2E /* Mission_BriefingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission_BriefingUITests.swift; sourceTree = "<group>"; };
+		1EE01FC71D76018A00CAEC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F32465911A69663E00A6A3CA /* Mission Briefing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mission Briefing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32465951A69663E00A6A3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F32465961A69663E00A6A3CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +56,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1EE01FC01D76018A00CAEC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F324658E1A69663E00A6A3CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,12 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE01FC41D76018A00CAEC2E /* Mission BriefingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EE01FC51D76018A00CAEC2E /* Mission_BriefingUITests.swift */,
+				1EE01FC71D76018A00CAEC2E /* Info.plist */,
+			);
+			path = "Mission BriefingUITests";
+			sourceTree = "<group>";
+		};
 		F32465881A69663E00A6A3CA = {
 			isa = PBXGroup;
 			children = (
 				F361075F1A699B59003E32D5 /* MissionBriefing.txt */,
 				F32465931A69663E00A6A3CA /* Mission Briefing */,
 				F32465AD1A69663E00A6A3CA /* Mission BriefingTests */,
+				1EE01FC41D76018A00CAEC2E /* Mission BriefingUITests */,
 				F32465921A69663E00A6A3CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +105,7 @@
 			children = (
 				F32465911A69663E00A6A3CA /* Mission Briefing.app */,
 				F32465AA1A69663E00A6A3CA /* Mission BriefingTests.xctest */,
+				1EE01FC31D76018A00CAEC2E /* Mission BriefingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +154,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1EE01FC21D76018A00CAEC2E /* Mission BriefingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE01FCC1D76018A00CAEC2E /* Build configuration list for PBXNativeTarget "Mission BriefingUITests" */;
+			buildPhases = (
+				1EE01FBF1D76018A00CAEC2E /* Sources */,
+				1EE01FC01D76018A00CAEC2E /* Frameworks */,
+				1EE01FC11D76018A00CAEC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE01FC91D76018A00CAEC2E /* PBXTargetDependency */,
+			);
+			name = "Mission BriefingUITests";
+			productName = "Mission BriefingUITests";
+			productReference = 1EE01FC31D76018A00CAEC2E /* Mission BriefingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F32465901A69663E00A6A3CA /* Mission Briefing */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F32465B41A69663E00A6A3CA /* Build configuration list for PBXNativeTarget "Mission Briefing" */;
@@ -166,9 +213,14 @@
 		F32465891A69663E00A6A3CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "The Iron Yard";
 				TargetAttributes = {
+					1EE01FC21D76018A00CAEC2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F32465901A69663E00A6A3CA;
+					};
 					F32465901A69663E00A6A3CA = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -193,11 +245,19 @@
 			targets = (
 				F32465901A69663E00A6A3CA /* Mission Briefing */,
 				F32465A91A69663E00A6A3CA /* Mission BriefingTests */,
+				1EE01FC21D76018A00CAEC2E /* Mission BriefingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1EE01FC11D76018A00CAEC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F324658F1A69663E00A6A3CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +279,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1EE01FBF1D76018A00CAEC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE01FC61D76018A00CAEC2E /* Mission_BriefingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F324658D1A69663E00A6A3CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,6 +308,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1EE01FC91D76018A00CAEC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32465901A69663E00A6A3CA /* Mission Briefing */;
+			targetProxy = 1EE01FC81D76018A00CAEC2E /* PBXContainerItemProxy */;
+		};
 		F32465AC1A69663E00A6A3CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F32465901A69663E00A6A3CA /* Mission Briefing */;
@@ -267,6 +340,39 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1EE01FCA1D76018A00CAEC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Mission BriefingUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philosophicalhacker.Mission-BriefingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = "Mission Briefing";
+			};
+			name = Debug;
+		};
+		1EE01FCB1D76018A00CAEC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Mission BriefingUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philosophicalhacker.Mission-BriefingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mission Briefing";
+			};
+			name = Release;
+		};
 		F32465B21A69663E00A6A3CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,6 +506,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1EE01FCC1D76018A00CAEC2E /* Build configuration list for PBXNativeTarget "Mission BriefingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE01FCA1D76018A00CAEC2E /* Debug */,
+				1EE01FCB1D76018A00CAEC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F324658C1A69663E00A6A3CA /* Build configuration list for PBXProject "Mission Briefing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
