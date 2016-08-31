@@ -31,9 +31,9 @@ class Mission_BriefingUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let element = XCUIApplication().otherElements.containingType(.NavigationBar, identifier:"View").childrenMatchingType(.Other).element.childrenMatchingType(.Other).element.childrenMatchingType(.Other).element.childrenMatchingType(.TextField).elementBoundByIndex(0)
+        let loginButton = XCUIApplication().buttons["Button"]
+        XCTAssertEqual(loginButton.value as? String, "Authenticate")
         
-        XCTAssertEqual(element.value as? String, "Hell")
     }
     
 }

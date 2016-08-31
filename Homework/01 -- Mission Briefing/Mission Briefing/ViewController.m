@@ -30,7 +30,7 @@
     //    Hint: there is a string literal that represents empty
     //
     
-    [self.agentNameTextField setText:@"Hello"];
+//    [self.agentNameTextField setText:@""];
 //    self.greetingLabel.text = ;
 //    self.missionBriefingTextView.text = ;
 }
